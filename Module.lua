@@ -3828,8 +3828,8 @@ function Library:CreateWindow(Config: {
 												end
 												return
 											end
-Pallete.Position = UDim2.new(0, ColorIndicator.AbsolutePosition.X + ColorIndicator.AbsoluteSize.X + 6, 0, ColorIndicator.AbsolutePosition.Y + 30)
-								end)
+Pallete.Position = UDim2.new(0, ColorIndicator.AbsolutePosition.X, 0, ColorIndicator.AbsolutePosition.Y + ColorIndicator.AbsoluteSize.Y)
+											end)
 										Pallete.Visible = true
 										blehh()
 									else
