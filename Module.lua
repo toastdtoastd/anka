@@ -4329,7 +4329,7 @@ function Library:CreateWindow(Config: {
 										return
 									end
 									local pos = Colorpicker.Color.AbsolutePosition
-									Pallete.Position = UDim2.new(0, pos.X + 129, 0, pos.Y + 52)
+									Pallete.Position = UDim2.new(0, pos.X + 52, 0, pos.Y + 52)
 								end)
 								Pallete.Visible = true
 								blehh()
